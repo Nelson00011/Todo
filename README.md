@@ -47,8 +47,11 @@
 ### Deployment
 
 
-## Additional Resources & Helpful Hints:
+## Resources:
 - [REACT](https://react.dev/).js docs
     - [CSS modules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/) to allow styles to be treated like objects.
 
+#### **style:** 
+
+#### **helpful hint:** 
 - Always Stay Positive & When in Doubt Double Check Permissions :) 
