@@ -2,10 +2,24 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const PORT = 5000;
+const pool = require("./db");
 
-//MiddleWare
+//Mid-ware
 app.use(cors());
 app.use(express.json());
+
+//ROUTES
+//CRUD
+app.post("/todos", async (req,res)=> {
+    try{
+    const { description } = req.body;
+    const newTodo = await pool.query("INSERT INTO todo (description) VALUES($1)", [description])
+    console.log(description)
+    } catch(err){
+        console.error(err.message);
+    }
+})
+
 
 
 
