@@ -47,7 +47,11 @@
 > npm install pg cors express
 > npm install nodemon
 ```
-- Ctl-C will stop the server side
+- `ctl-c` will stop the server side
+- Make env (do not place dashes in name ever)
+```
+npm install env-cmd
+```
 
 --------------------------------------------------
 ### Deployment
