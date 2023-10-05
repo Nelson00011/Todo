@@ -29,6 +29,13 @@ app.get("/todos", async(req, res)=>{
     }
 })
 
+app.get("/todos/:id", async(req, res)=>{
+    try {
+        console.log(req.params);
+    } catch (err){
+        console.log(err.message)
+    }
+})
 
 
 
