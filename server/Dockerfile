@@ -14,7 +14,6 @@ RUN npm install --silent
 # Copy app source code
 COPY node_modules/ node_modules/
 
-
 # Exports
 EXPOSE 5000
 
