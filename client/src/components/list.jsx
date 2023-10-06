@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from 'react';
-import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button } from '@mui/material';
+import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button, Box } from '@mui/material';
 import EditTodo from "./edit";
 
 
@@ -41,12 +41,13 @@ const ListTodo = () => {
     console.log(todo);
 
     return (
-        <TableContainer>
+        <Box width="80%" margin="10px auto"> 
+        <TableContainer component={Paper}>
             <Table>
-                <TableHead>
+                <TableHead >
                 <TableRow>
-                    <TableCell>Number</TableCell>
-                    <TableCell align="justify">Description</TableCell>
+                    <TableCell>Item</TableCell>
+                    <TableCell align="justify"> Description</TableCell>
                     <TableCell align="right">Edit</TableCell>
                     <TableCell align="right">Delete</TableCell>
                 </TableRow>
@@ -61,14 +62,15 @@ const ListTodo = () => {
                      {index + 1}
                     </TableCell>
                     <TableCell align="justify">{row.description}</TableCell>
-                    <TableCell align="right"><EditTodo id={row.todo_id} description={row.description}/></TableCell>
-                    <TableCell align="right"><Button color='warning' onClick={() => deleteTodo(row.todo_id)}>Delete</Button></TableCell>
+                    <TableCell align="right"><EditTodo todo={row} id={index + 1} /></TableCell>
+                    <TableCell align="right"><Button color="error" variant="contained" onClick={() => deleteTodo(row.todo_id)}>Delete</Button></TableCell>
                     </TableRow>
                 ))}
                 </TableBody>
 
             </Table>
     </TableContainer>
+    </Box>
   );
 };
 

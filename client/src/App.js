@@ -10,7 +10,6 @@ function App() {
   return (
     <div>
     <InputTodo/>
-    <EditTodo/>
     <ListTodo/>
     </div>
   );
