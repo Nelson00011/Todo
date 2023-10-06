@@ -2,8 +2,9 @@
 
 ![image]
 ## Description
-**Todo List** is a **React.js** application that is meant provide a simple todo list function. 
-- The items are saved in a ***Postgres*** database. 
+**Todo List** is a **React.js** application that is meant provide a simple todo list function. PERN refresher application
+- The items are saved in a ***Postgres*** database.
+- PERN refresher application *Postgres*, *Express*, *React*, *Node*.
 
 
 ## Technology Stack
@@ -11,7 +12,7 @@
 
 **APIs:**   
 
-**Back-End:**  Postgres, Node.js
+**Back-End:**  Postgres, Node.js, Express.js
 
 
 ## Run Code (Environment)
@@ -60,12 +61,24 @@ npm install env-cmd
 ## Resources:
 - [REACT](https://react.dev/).js docs
     - [CSS modules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/) to allow styles to be treated like objects.
-- [PostgreSQL](https://www.postgresql.org/) installation for device. PORT: 5432
+- [PostgreSQL](https://www.postgresql.org/) Database installation for device. `PORT: 5432`
+- - **PostMan** for API Tests [here](https://www.postman.com/)
+
 
 #### **style:** 
+- **[Material UI CORE](https://mui.com/)** React UI LIBRARY *great for standardizing projects*
+    - MUI Core installation [here](https://www.npmjs.com/package/@mui/material) & [here](https://mui.com/material-ui/getting-started/installation/)
+    ```
+    npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+    ```
+    - MUI Palette [here](https://mui.com/material-ui/customization/palette/)
+    - MUI Alert [here](https://mui.com/material-ui/react-alert/)
+    - MUI with CSS Modules style library [here](https://mui.com/material-ui/guides/interoperability/)
+    - Table formating [here](https://mui.com/material-ui/react-table/#basic-table)
+
 
 #### **helpful hint:** 
-- Always Stay Positive & When in Doubt Double Check Permissions :) 
+- Always Stay Positive 
 - Consider Sequalize for future projects [info](https://sequelize.org/)
 - Issues using psql fixed [here](https://stackoverflow.com/questions/44272416/how-to-add-a-folder-to-path-environment-variable-in-windows-10-with-screensho)
 - Windows Server may require for nodemon to run:
