@@ -1,16 +1,16 @@
 <h1 align="center">Todo Application</h1>
 
-![image]
+![TodoImage](https://github.com/Nelson00011/boho/assets/112737682/693efd03-09ba-4270-8e05-4ae8bb127f0a)
 ## Description
 **Todo List** is a **React.js** application that is meant provide a simple todo list function. PERN refresher application
-- The items are saved in a ***Postgres*** database.
-- PERN refresher application *Postgres*, *Express*, *React*, *Node*.
+- The items are saved in a ***Postgres*** database using express.js & cors on the backend. 
+- PERN refresher application *Postgres*, *Express.js*, *React.js*, *Node*.
 
 
 ## Technology Stack
 **Front-End:** HTML5, CSS, React.js
 
-**APIs:**   
+**APIs:**  N/A
 
 **Back-End:**  Postgres, Node.js, Express.js
 
@@ -36,7 +36,6 @@
 ```
 > npm run dev
 ```
-- Run test with Postman as needed to test calls before connecting to client end.
 
 ### Back-End Helpful Hints (Node.js)
 #### Postgres
@@ -49,11 +48,12 @@
 > npm install nodemon
 ```
 - `ctl-c` will stop the server side
-- Make env (do not place dashes in name ever)
+- Make env (for passwords and gitignore)
+- Use current Nodemon
 ```
-npm install env-cmd
+nodemon index
 ```
-
+- Run test with Postman as needed to test calls before connecting to client end.
 --------------------------------------------------
 ### Deployment
 
@@ -72,11 +72,14 @@ npm install env-cmd
     npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
     npm install @material/icon-button
     ```
+    - MUI React-text-field [info](https://mui.com/material-ui/react-text-field/)
     - MUI Palette [here](https://mui.com/material-ui/customization/palette/)
     - MUI Alert [here](https://mui.com/material-ui/react-alert/)
     - MUI with CSS Modules style library [here](https://mui.com/material-ui/guides/interoperability/)
     - Table formating [here](https://mui.com/material-ui/react-table/#basic-table)
     - Module Information [here](https://mui.com/material-ui/react-modal/)
+- Filler Text [typographic](https://generator.lorem-ipsum.info/)
+    - Lorem Ipsum 
 
 
 #### **helpful hint:** 
