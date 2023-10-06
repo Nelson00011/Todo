@@ -38,8 +38,8 @@
 ```
 
 ### Back-End Helpful Hints (Node.js)
-#### Postgres
-- Make Postgres Server (see resources):
+#### Postgres, Express.js
+- Make Postgres Server & install dependencies (see resources):
 ```
 > mkdir server
 > cd server
@@ -65,7 +65,7 @@ nodemon index
 - [PostgreSQL](https://www.postgresql.org/) Database installation for device. `PORT: 5432`
     - Node Postgres APIS [info](https://node-postgres.com/apis/pool)
 - **PostMan** for API Tests [here](https://www.postman.com/)
-- Docker install info [here](https://www.docker.com/):
+- **Docker** install info [here](https://www.docker.com/):
     - Dockerizing info [here](https://medium.com/mozilla-club-bbsr/dockerizing-a-mern-stack-web-application-ebf78babf136)
     - Postgres specific information [here](https://medium.com/@agusmahari/docker-how-to-install-postgresql-using-docker-compose-d646c793f216)
 
