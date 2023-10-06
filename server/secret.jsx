@@ -1,1 +1,0 @@
-export const passcode = "Halo8888*";

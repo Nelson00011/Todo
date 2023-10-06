@@ -4,7 +4,7 @@ import { Button } from "@mui/material";
 
 
 const InputTodo = () => {
-    const [description, setDescription] = useState("hi");
+    const [description, setDescription] = useState("");
 
     const onSubmitForm = async (evt) =>{
         evt.preventDefault();

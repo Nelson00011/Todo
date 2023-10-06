@@ -70,11 +70,13 @@ npm install env-cmd
     - MUI Core installation [here](https://www.npmjs.com/package/@mui/material) & [here](https://mui.com/material-ui/getting-started/installation/)
     ```
     npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+    npm install @material/icon-button
     ```
     - MUI Palette [here](https://mui.com/material-ui/customization/palette/)
     - MUI Alert [here](https://mui.com/material-ui/react-alert/)
     - MUI with CSS Modules style library [here](https://mui.com/material-ui/guides/interoperability/)
     - Table formating [here](https://mui.com/material-ui/react-table/#basic-table)
+    - Module Information [here](https://mui.com/material-ui/react-modal/)
 
 
 #### **helpful hint:** 

@@ -7,7 +7,6 @@ import ListTodo from "./components/list";
 
 function App() {
 
-
   return (
     <div>
     <InputTodo/>
