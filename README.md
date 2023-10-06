@@ -2,7 +2,7 @@
 
 ![TodoImage](https://github.com/Nelson00011/boho/assets/112737682/693efd03-09ba-4270-8e05-4ae8bb127f0a)
 ## Description
-**Todo List** is a **React.js** application that is meant provide a simple todo list function. PERN refresher application
+**Todo List** is a **React.js** application that is meant to provide a simple todo list function. PERN refresher application.
 - The items are saved in a ***Postgres*** database using express.js & cors on the backend. 
 - PERN refresher application *Postgres*, *Express.js*, *React.js*, *Node*.
 
@@ -49,6 +49,7 @@
 ```
 - `ctl-c` will stop the server side
 - Make env (for passwords and gitignore)
+- Generate Postgres Database (see resources)
 - Use current Nodemon
 ```
 nodemon index
@@ -62,7 +63,8 @@ nodemon index
 - [REACT](https://react.dev/).js docs
     - [CSS modules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/) to allow styles to be treated like objects.
 - [PostgreSQL](https://www.postgresql.org/) Database installation for device. `PORT: 5432`
-- - **PostMan** for API Tests [here](https://www.postman.com/)
+    - Node Postgres APIS [info](https://node-postgres.com/apis/pool)
+- **PostMan** for API Tests [here](https://www.postman.com/)
 
 
 #### **style:** 
@@ -90,4 +92,3 @@ nodemon index
 ```
  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
  ```
-
